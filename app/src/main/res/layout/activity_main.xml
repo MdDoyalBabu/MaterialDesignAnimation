@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rootlayout"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.materialdesign.MovableFloatingActionButton
+
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/chat_icon" />
+</FrameLayout>

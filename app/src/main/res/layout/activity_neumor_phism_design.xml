@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".NeumorPhismDesign">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <soup.neumorphism.NeumorphCardView
+
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="20dp">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textCursorDrawable="@drawable/cursor_layout" />
+
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="20dp">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textCursorDrawable="@drawable/cursor_layout" />
+
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <soup.neumorphism.NeumorphButton
+
+                    app:neumorph_shadowElevation="6dp"
+                    app:neumorph_shadowColorLight="#fff"
+                    style="@style/Widget.Neumorph.Button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:textColor="@color/white"
+                    app:neumorph_backgroundColor="@color/black" />
+
+                <soup.neumorphism.NeumorphButton
+
+                    app:neumorph_shadowColorLight="#fff"
+                    style="@style/Widget.Neumorph.Button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:textColor="@color/white"
+                    app:neumorph_backgroundColor="@color/black" />
+
+                <soup.neumorphism.NeumorphButton
+                    style="@style/Widget.Neumorph.Button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:textColor="@color/white"
+                    app:neumorph_backgroundColor="@color/black"
+                    app:neumorph_shadowColorLight="#fff" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

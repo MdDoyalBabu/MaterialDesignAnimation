@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99D1AF"
+    android:stretchColumns="1"
+    tools:context=".TableLayoutActivity">
+
+
+    <TableRow android:id="@+id/table_titles"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="4"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="Students Details"
+            android:layout_marginBottom="10dp"
+
+            />
+
+    </TableRow>
+    <TableRow android:id="@+id/header_id"
+        android:background="#E47A7A" >
+
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="ID"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="Name"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="CGPA"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="BCD"
+        android:layout_height="20dp"
+
+        />
+
+</TableRow>
+
+
+    <TableRow android:id="@+id/data_1_id"
+        android:background="#fff" >
+
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="101"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="Doyal babu"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="3.73"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="26/06/21"
+        android:layout_height="20dp"
+
+        />
+
+</TableRow>
+    <TableRow android:id="@+id/data_2_id"
+        android:background="#fff" >
+
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="102"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="Ferdous Rahman"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="3.83"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="26/06/21"
+        android:layout_height="20dp"
+
+        />
+
+</TableRow>
+    <TableRow android:id="@+id/data_3_id"
+        android:background="#fff" >
+
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="103"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="Shorab Hossain"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="3.76"
+        android:layout_height="20dp"
+
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="26/06/21"
+        android:layout_height="20dp"
+
+        />
+
+</TableRow>
+
+    <TableRow android:id="@+id/button_id">
+
+
+        <Button
+
+
+            android:textSize="16sp"
+            android:layout_column="2"
+            android:text="Submit"
+            />          
+        <Button
+            android:textSize="16sp"
+            android:layout_column="2"
+            android:text="Clear"
+            />
+
+    </TableRow>
+
+
+</TableLayout>
